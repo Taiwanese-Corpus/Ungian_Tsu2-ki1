@@ -4,11 +4,11 @@
 * 映像檔內的使用者密碼攏是`tai5gi2`
 
 ## ip093
-* 原網址：`ip194093.ntcu.edu.tw`
+* 原網址：<http://ip194093.ntcu.edu.tw>
 * Fedora 13
 * apache2對應的資料在`/home/apache/www`
 
 ##taibun
-* 原網址：`www.taibun.tw``
+* 原網址：<http://www.taibun.tw>
 * Ubuntu
 * apache2對應的資料在`/opt/www.taibun.tw`
