@@ -8,10 +8,10 @@
 * 原網址：<http://ip194093.ntcu.edu.tw>
 * Fedora 13 64bit
 * apache2對應的資料在`/home/apache/html`
-* ova映像檔下載，約68GB。VM解開後約136GB。
+* ova映像檔[下載](https://www.dropbox.com/s/b6hkh0zb1z8m8mf/ip093.ova?dl=0)，約68GB。VM解開後約136GB。
 
 ## taibun
 * 原網址：<http://www.taibun.tw>
 * Ubuntu 11.04 64bit
 * apache2對應的資料在`/opt/www.taibun.tw`，設定檔在`/opt/apache-tomcat-5.5.33`
-* ova映像檔下載，約63GB。VM解開後約224GB。
+* ova映像檔[下載](https://www.dropbox.com/s/cakqbm6b3hedhic/taibun.ova?dl=0)，約63GB。VM解開後約224GB。
