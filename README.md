@@ -15,3 +15,20 @@
 * Ubuntu 11.04 64bit
 * apache2對應的資料在`/opt/www.taibun.tw`，設定檔在`/opt/apache-tomcat-5.5.33`
 * ova映像檔[下載](https://www.dropbox.com/s/cakqbm6b3hedhic/taibun.ova?dl=0)，約63GB。VM解開後約224GB。
+
+## 裝vm
+### ip093
+```
+wget -O ip093.ova https://www.dropbox.com/s/b6hkh0zb1z8m8mf/ip093.ova?dl=0
+vboxmanage import ip093.ova
+vboxmanage modifyvm "ip093" --natpf1 "http,tcp,,8000,,80"
+vboxmanage startvm ip093 --type headless
+```
+### taibun
+```
+wget -O taibun.ova https://www.dropbox.com/s/cakqbm6b3hedhic/taibun.ova?dl=0
+vboxmanage import taibun.ova
+vboxmanage modifyvm jsp --name taibun
+vboxmanage modifyvm taibun --natpf1 "http,tcp,,8000,,80"
+vboxmanage startvm taibun --type headless
+```
