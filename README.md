@@ -22,7 +22,7 @@
 wget -O ip093.ova https://www.dropbox.com/s/b6hkh0zb1z8m8mf/ip093.ova?dl=0
 vboxmanage import ip093.ova
 vboxmanage modifyvm ip093 --cpus 2 --memory 2048
-vboxmanage modifyvm ip093 --natpf1 "http,tcp,,8000,,80"
+vboxmanage modifyvm ip093 --natpf1 "http,tcp,,8000,,80" --usb off
 vboxmanage startvm ip093 --type headless
 ```
 ### taibun
@@ -31,6 +31,6 @@ wget -O taibun.ova https://www.dropbox.com/s/cakqbm6b3hedhic/taibun.ova?dl=0
 vboxmanage import taibun.ova
 vboxmanage modifyvm jsp --name taibun
 vboxmanage modifyvm taibun --cpus 2 --memory 2048
-vboxmanage modifyvm taibun --natpf1 "http,tcp,,8000,,80"
+vboxmanage modifyvm taibun --natpf1 "http,tcp,,8000,,80" --usb off
 vboxmanage startvm taibun --type headless
 ```
