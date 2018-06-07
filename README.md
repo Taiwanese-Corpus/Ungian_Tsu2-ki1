@@ -6,6 +6,7 @@
 
 ## ip093
 * 原網址：<http://ip194093.ntcu.edu.tw>
+* 中研院鏡像站：<https://kipsupin.iis.sinica.edu.tw/>
 * Fedora 13 64bit
 * apache2對應的資料在`/home/apache/html`
 * ova映像檔[下載](https://www.dropbox.com/s/b6hkh0zb1z8m8mf/ip093.ova?dl=0)，約68GB。VM解開後約136GB。
